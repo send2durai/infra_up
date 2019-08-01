@@ -2,9 +2,6 @@
 AssociatePublicIpAddress: "false"
 AzCount: '3'
 Environment: '{{ cfn_environment }}'
-ProxyHost: 'proxy.int.ap-southeast-2.sharedsvc.a-sharedinfra.net'
-ProxyPort: '8080'
-NoProxy: 'localhost,.kaccess.net,.kaccess.com.au,.kmtltd.net.au,.compute.internal,.a-sharedinfra.net,s3.ap-southeast-2.amazonaws.com,169.254.169.254,git.kaccess.net,/var/run/docker.sock,169.254.170.2'
 RandString: '{{ cfn_rand_string }}'
 SlackWebhookUrl: '{{ cfn_slack_webhook_url }}'
 SSHKey: '{{ cfn_ssh_key }}'
