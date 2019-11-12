@@ -10,25 +10,25 @@ StackSuffix: '{{ cfn_stack_suffix }}'
 SGStack: '{{ cfn_sg_stack }}'
 MasterBranch: '{{ cfn_master_branch }}'
 ProjectId: '{{ cfn_project_id }}'
-R53ZonesStack: 'infra-r53-zones-region'
+R53ZonesStack: '
 ECSInstanceType: 't3.small'
 ECSClusterSize: '1'
 ECSStack: '{{ cfn_ecs_stack }}'
-S3PrefixListId: pl-6ca54005  # com.amazonaws.ap-southeast-2.s3
-InfraSecurityGroupStack: 'infra-netsec-securitygroups'
+S3PrefixListId:   # com.amazonaws.ap-southeast-2.s3
+InfraSecurityGroupStack: 
 StackIndex: 'a'
-ALBCertificateArn: 'arn:aws:acm:ap-southeast-2:318263296841:certificate/3e7813ba-cf81-48e4-9f03-14605dfcd733'
-StorageStack: 'teammember-storage'
+ALBCertificateArn: '
+StorageStack: '
 ECSClusterStack: '{{ cfn_ecs_stack }}'
 AppKey: '{{ cfn_app_key }}'
-AppUrl: 'https://teammemberapp.dev.kaccess.com.au/KMartRest'
-CDNUserAssetsUrl: 'https://teammemberapp.dev.kaccess.com.au/KMartRest'
-CDNStaticAssetsUrl: 'https://teammemberapp.dev.kaccess.com.au/KMartRest'
+AppUrl: 'https://
+CDNUserAssetsUrl: 'https://
+CDNStaticAssetsUrl: 'https://
 DBName: '{{ cfn_db_name }}'
 DBUser: '{{ cfn_db_username }}'
 DBPassword: '{{ cfn_db_password }}'
-DBStack: 'teammember-attendize-db'
-RedisStack: 'teammember-attendize-redis'
-DBSGStack: 'infra-db-subnetgroups'
+DBStack: '
+RedisStack: '
+DBSGStack: '
 DatabaseInstanceType: db.t3.micro
 MultiAZSupport: 'false'
